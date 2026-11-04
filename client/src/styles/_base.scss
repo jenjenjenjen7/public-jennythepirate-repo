@@ -1,0 +1,25 @@
+body {
+  font-family: "Special Elite", system-ui;
+  background-color: var(--bg);
+  color: var(--text);
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh; 
+  margin: 0;  
+  padding: 0;
+  min-height: 100vh;
+}
+body a {
+  color: var(--link);	
+}
+html, body, #root {
+  overflow-x: hidden;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+h1, h4 {
+  text-align: center;
+}
+

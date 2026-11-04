@@ -1,0 +1,70 @@
+@use './abstracts';
+//cards to display the links for the cosplay pages.
+.outfit-card {
+  position: relative;
+  width: 150px;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  text-align: center;
+
+  img {
+    border-radius: 20px;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    display: block;
+  }
+//text on top of the cards
+  figcaption {
+    //gradient on top of cards for readability
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0) 100%);
+    border-radius: 0 0 20px 20px;
+    position: absolute;
+    inset: auto 0 0 0;
+    width: 150px;
+    color: white;
+    font-size: 25px;
+    box-sizing: border-box;
+  }
+}
+//cards for regular images
+.card {
+  width: 300px; 
+  height: 400px;
+  overflow: hidden;
+  
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    object-position: center;
+  }
+}
+//making the figure and article sit right
+.feature-item {
+  display: flex;  
+  align-items: center;   
+  gap: 20px;
+} 
+figure {
+  margin: 0;
+  padding: 0;
+  position: relative; 
+}
+// Social Media Buttons
+.fa {
+  width: 30px;
+  height: auto;
+  padding: 8px 2px;
+  text-align: center;
+  text-decoration: none;
+
+  &-twitter { background: abstracts.$twitter; color: white; }
+  &-bluesky { background: abstracts.$bluesky; color: white; }
+  &-facebook { background: abstracts.$facebook; color: white; }
+  &-github { background: abstracts.$github; color: white; }
+  &-pinterest { background: abstracts.$pinterest; color: white; }
+  &-instagram { background: abstracts.$instagram; color: white; }
+  &-freecodecamp { background: abstracts.$freecodecamp; color: white; }
+}

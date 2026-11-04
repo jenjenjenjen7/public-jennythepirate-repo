@@ -1,0 +1,29 @@
+//light and dark mode colors
+:root {
+  --bg: #E0E0E0;
+  --text: #121212;
+  --header: #EB7095;
+  --footer: #742A40;
+  --footer-text:#FAEB9A;
+  --footer-link:#FDE34B;
+}  
+html.dark {
+	body {
+  		--bg: #121212;
+  		--text: #E0E0E0;
+  		--link: #FDE34B;
+  		--header: #38bdf8;
+  		--footer: #353e43;
+  		}
+	}
+// Social Media Colors
+$twitter: #55ACEE;
+$bluesky: #0088FF;
+$facebook: #3B5998;
+$github: #444444;
+$pinterest: #E60023;
+$freecodecamp: #006400;
+$instagram: linear-gradient(to bottom left, #6600cc 0%, #ff6600 100%);
+
+
+
