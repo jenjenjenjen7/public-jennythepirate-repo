@@ -2,7 +2,7 @@
 
 A full-stack, 3-tier web application designed to manage, browse, and track costume inventories. Built with a modern PERN stack (PostgreSQL, Express, React, Node.js) with decoupled deployment pipelines.
 
-## 🚀 Live Demo & Links
+## Live Demo & Links
 
 - **Frontend Application:** [jennythepirate.com](https://www.jennythepirate.com)
 
@@ -10,7 +10,7 @@ A full-stack, 3-tier web application designed to manage, browse, and track costu
 
 ---
 
-## 🛠️ Architecture & Tech Stack
+## Architecture & Tech Stack
 
 - **Frontend:** React (Vite) — Deployed on **Netlify**
 - **Backend:** Node.js & Express REST API — Deployed on **Render**
